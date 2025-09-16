@@ -106,10 +106,54 @@ export const weatherForecast = {
 
 // Team members data
 export const teamMembers = [
-  { name: 'Arjun Patel', role: 'Hardware Lead' },
-  { name: 'Priya Sharma', role: 'Backend Lead' },
-  { name: 'Rohan Kumar', role: 'Frontend Lead' },
-  { name: 'Sneha Singh', role: 'ML Lead' },
+  { 
+    name: 'Arjun Patel', 
+    role: 'Hardware Lead',
+    description: 'IoT sensors & device integration',
+    email: 'arjun.patel@teamvirentus.in',
+    github: 'github.com/arjunpatel',
+    linkedin: 'linkedin.com/in/arjunpatel'
+  },
+  { 
+    name: 'Priya Sharma', 
+    role: 'Backend Lead',
+    description: 'API development & cloud architecture',
+    email: 'priya.sharma@teamvirentus.in',
+    github: 'github.com/priyasharma',
+    linkedin: 'linkedin.com/in/priyasharma'
+  },
+  { 
+    name: 'Rohan Kumar', 
+    role: 'Frontend Lead',
+    description: 'UI/UX design & React development',
+    email: 'rohan.kumar@teamvirentus.in',
+    github: 'github.com/rohankumar',
+    linkedin: 'linkedin.com/in/rohankumar'
+  },
+  { 
+    name: 'Sneha Singh', 
+    role: 'ML Lead',
+    description: 'Machine learning & data analytics',
+    email: 'sneha.singh@teamvirentus.in',
+    github: 'github.com/snehasingh',
+    linkedin: 'linkedin.com/in/snehasingh'
+  },
+  { 
+    name: 'Vikram Gupta', 
+    role: 'Integration Lead',
+    description: 'System integration & testing',
+    email: 'vikram.gupta@teamvirentus.in',
+    github: 'github.com/vikramgupta',
+    linkedin: 'linkedin.com/in/vikramgupta'
+  },
+  { 
+    name: 'Ananya Reddy', 
+    role: 'DevOps Lead',
+    description: 'Deployment & infrastructure management',
+    email: 'ananya.reddy@teamvirentus.in',
+    github: 'github.com/ananyareddy',
+    linkedin: 'linkedin.com/in/ananyareddy'
+  },
 ];
 
 // Device information

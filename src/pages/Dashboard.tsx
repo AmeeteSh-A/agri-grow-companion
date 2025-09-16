@@ -192,14 +192,29 @@ const Dashboard = () => {
           </Card>
         </div>
 
-        {/* Action Button */}
-        <div className="text-center">
+        {/* Action Buttons */}
+        <div className="text-center space-y-4">
           <Button 
             onClick={() => navigate('/detailed-analysis')}
             size="lg"
             className="bg-primary hover:bg-primary-dark text-primary-foreground px-8 py-4 text-lg font-semibold transition-smooth shadow-moderate hover:shadow-strong"
           >
             View Detailed Analysis →
+          </Button>
+          
+          <div className="flex items-center justify-center space-x-2 text-muted-foreground">
+            <span className="h-px bg-border flex-1"></span>
+            <span className="text-sm">or</span>
+            <span className="h-px bg-border flex-1"></span>
+          </div>
+          
+          <Button 
+            onClick={() => navigate('/about')}
+            variant="outline"
+            size="lg"
+            className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg font-semibold transition-smooth"
+          >
+            Meet Our Team →
           </Button>
         </div>
       </div>
