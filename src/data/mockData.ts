@@ -107,52 +107,52 @@ export const weatherForecast = {
 // Team members data
 export const teamMembers = [
   { 
-    name: 'Arjun Patel', 
-    role: 'Hardware Lead',
-    description: 'IoT sensors & device integration',
-    email: 'arjun.patel@teamvirentus.in',
-    github: 'github.com/arjunpatel',
-    linkedin: 'linkedin.com/in/arjunpatel'
+    name: 'Madhav Kathuria', 
+    role: 'Machine Learning Lead',
+    description: 'Machine learning & data analytics',
+    email: 'madhavkathuria@students.sau.ac.in',
+    github: 'github.com/MadhavKathuria826',
+    linkedin: 'www.linkedin.com/in/madhav-kathuria/'
   },
   { 
-    name: 'Priya Sharma', 
+    name: 'Atrey Vashishth', 
     role: 'Backend Lead',
-    description: 'API development & cloud architecture',
-    email: 'priya.sharma@teamvirentus.in',
-    github: 'github.com/priyasharma',
-    linkedin: 'linkedin.com/in/priyasharma'
+    description: 'Deployment & cloud architecture',
+    email: 'atrey.work@gmail.com',
+    github: 'github.com/Atrey-Vashishth',
+    linkedin: 'www.linkedin.com/in/atrey-vashishth'
   },
   { 
-    name: 'Rohan Kumar', 
+    name: 'Ameetesh Awadh', 
     role: 'Frontend Lead',
     description: 'UI/UX design & React development',
-    email: 'rohan.kumar@teamvirentus.in',
-    github: 'github.com/rohankumar',
-    linkedin: 'linkedin.com/in/rohankumar'
+    email: 'ameeteshawadh@gmail.com',
+    github: 'github.com/AmeeteSh-A/',
+    linkedin: 'www.linkedin.com/in/ameetesh/'
   },
   { 
-    name: 'Sneha Singh', 
-    role: 'ML Lead',
-    description: 'Machine learning & data analytics',
-    email: 'sneha.singh@teamvirentus.in',
-    github: 'github.com/snehasingh',
-    linkedin: 'linkedin.com/in/snehasingh'
+    name: 'Prakhar Parashar', 
+    role: 'Hardware Lead',
+    description: 'IoT sensors & device integration',
+    email: 'kraschenemissaryofthedamned@gmail.com',
+    github: 'github.com/Kraschen-Winter',
+    linkedin: 'www.linkedin.com/in/prakhar-parashar-7a9a0431a/'
   },
   { 
-    name: 'Vikram Gupta', 
-    role: 'Integration Lead',
-    description: 'System integration & testing',
-    email: 'vikram.gupta@teamvirentus.in',
-    github: 'github.com/vikramgupta',
-    linkedin: 'linkedin.com/in/vikramgupta'
+    name: 'Anuj Kumar', 
+    role: 'RnD Lead',
+    description: 'Research and Data Collection',
+    email: 'anujkharbash2@gmail.com',
+    github: 'github.com/anujkharbash2',
+    linkedin: 'github.com/anujkharbash2'
   },
   { 
-    name: 'Ananya Reddy', 
-    role: 'DevOps Lead',
-    description: 'Deployment & infrastructure management',
-    email: 'ananya.reddy@teamvirentus.in',
-    github: 'github.com/ananyareddy',
-    linkedin: 'linkedin.com/in/ananyareddy'
+    name: 'Lavanya Sharma', 
+    role: 'Design Lead',
+    description: 'UI Designing and Presentation',
+    email: 'sharmalavanya077@gmail.com',
+    github: 'github.com/Lav-web',
+    linkedin: 'www.linkedin.com/in/lavanya-sharma-bbb866349/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
   },
 ];
 

@@ -250,7 +250,7 @@ const AboutUs = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div className="space-y-3 group">
                 <div className="text-5xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent group-hover:scale-110 transition-smooth">
-                  50+
+                  5+
                 </div>
                 <p className="text-muted-foreground text-lg">Farms Monitored</p>
               </div>

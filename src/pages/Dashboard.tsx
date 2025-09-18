@@ -15,6 +15,9 @@ import {
   AlertTriangle
 } from 'lucide-react';
 
+// Make sure this path points to your image file.
+import farmerImage from '@/assets/farmer-iot.png'; 
+
 const Dashboard = () => {
   const navigate = useNavigate();
   
@@ -39,7 +42,9 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-accent/20">
       {/* Header */}
-      <div className="bg-white border-b border-border/40 shadow-soft">
+      {/* FIX: 'relative' is now on the outer container */}
+      <div className="relative bg-white border-b border-border/40 shadow-soft">
+        {/* FIX: 'relative' has been removed from here */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div>
@@ -52,6 +57,22 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
+
+        {/* FIX: The image tag with corrected positioning and size */}
+        <img 
+          src={farmerImage} 
+          alt="Farmer with IoT device"
+          className="
+            absolute 
+            right-[580px] 
+            top-[-60px]
+            h-60
+            w-auto 
+            hidden 
+            lg:block 
+            pointer-events-none
+          "
+        />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
